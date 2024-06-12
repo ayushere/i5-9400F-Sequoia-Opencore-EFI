@@ -4,7 +4,8 @@
 
 </div>
 
-This repository contains my meticulously tested OpenCore EFI configuration to unleash the power of macOS Sequoia (Developer Beta 1) on an i5 9400F Hackintosh build.  ⚠️ **Caveat:**  This is a developer beta, so expect some instability. Proceed at your own risk!
+This repository contains my meticulously tested OpenCore EFI configuration to unleash the power of macOS Sequoia (Developer Beta 1) on an i5 9400F Hackintosh build. 
+⚠️ **Caveat:**  This is a developer beta, so expect some instability. Proceed at your own risk!
 
 <br>
 <div align="center">
@@ -59,6 +60,7 @@ I've personally booted and run macOS Sequoia (Developer Beta 1) with this config
 *   **SMBIOS:** iMac 19,1
 
 <br>
+
 ## Installation Guides 
 
 Need help with the installation process? Follow my detailed guides:
@@ -71,6 +73,7 @@ Need help with the installation process? Follow my detailed guides:
     *   **macOS:** [https://kextcache.com/guide-to-create-a-bootable-macos-usb-drive-using-gibmacos-tool/](https://kextcache.com/guide-to-create-a-bootable-macos-usb-drive-using-gibmacos-tool/)
 
 <br>
+
 ## Troubleshooting Tips
 
 If you encounter issues, head to my website for common Hackintosh problems and workarounds: [https://kextcache.com/common-problems-and-workarounds-in-hackintosh-2020/](https://kextcache.com/common-problems-and-workarounds-in-hackintosh-2020/)
@@ -78,6 +81,7 @@ If you encounter issues, head to my website for common Hackintosh problems and w
 Don't hesitate to comment on the specific blog post for your problem – I'm here to help!
 
 <br>
+
 ## Credits & Disclaimer
 
 Big thanks to the Hackintosh community and OpenCore developers!
