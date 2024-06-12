@@ -1,67 +1,85 @@
-macOS Sequoia on i5 9400F - OpenCore EFI Configuration
+<div align="center">
 
-This repository contains my OpenCore EFI configuration for successfully running macOS Sequoia on a i5 9400F Hackintosh. This is a developer beta configuration, so expect some instability and potential issues. Use this configuration at your own risk.
+# 🚀 macOS Sequoia on i5 9400F – OpenCore EFI Configuration 🚀
 
-Table of Contents
+</div>
 
-About This Configuration
-Hardware
-Configuration Overview
-Installation Guide
-Troubleshooting Tips
-Credits
-Disclaimer
-About This Configuration
+This repository contains my meticulously tested OpenCore EFI configuration to unleash the power of macOS Sequoia (Developer Beta 1) on an i5 9400F Hackintosh build.  ⚠️ **Caveat:**  This is a developer beta, so expect some instability. Proceed at your own risk!
 
-This configuration is tailored for the following hardware:
+<br>
+<div align="center">
 
-Motherboard: MSI 365M-PRO-VDH
-CPU: i5 9400F
-GPU: Sapphire 5700XT 8GB
-RAM: 24GB DDR4 2400MHZ
-Storage: SAMSUNG NVMe 980 Evo Plus 500G
-Additional Components: Apple Magic Keyboard, G PRO Mouse
-I have successfully booted and run macOS Sequoia (Developer Beta 1) with this configuration. However, your mileage may vary depending on your specific hardware.
+## Table of Contents
+1.  [About This Configuration](#about-this-configuration)
+2.  [Hardware](#hardware)
+3.  [Configuration Overview](#configuration-overview)
+4.  [Installation Guides](#installation-guides)
+5.  [Troubleshooting Tips](#troubleshooting-tips)
+6.  [Credits & Disclaimer](#credits--disclaimer)
 
-Configuration Overview
+</div>
 
-OpenCore Version: OpenCore 1.0.1
-Kexts:
-Lilu
-WhateverGreen
-VirtualSMC
-AppleALC
-Realtek RTL8111
-NVMeFix
-RestrictEvents
-VirtualSMC & Plugins
-USB Tool Box
-XHCI-Unsupported
 
-ACPI:
-SSDT-AWAC-DISABLE.aml
-SSDT-EC-USBX.aml
-SSDT-PLUG.aml
-SSDT-PMC.aml
+<br>
 
-SMBIOS: iMac 19,1
+## About This Configuration 
 
-Installation Guide:
-https://kextcache.com/guide-make-intel-700-hackintosh-build-using-opencore-bootloader/
+This EFI is meticulously tailored for the following hardware:
 
-USB Mapping Guide:
-https://kextcache.com/guide-how-to-do-usb-mapping-for-hackintosh-in-windows/
+*   **Motherboard:** MSI 365M-PRO-VDH
+*   **CPU:** i5 9400F
+*   **GPU:** Sapphire 5700XT 8GB
+*   **RAM:** 24GB DDR4 2400MHZ
+*   **Storage:** SAMSUNG NVMe 980 Evo Plus 500G
+*   **Additional Components:** Apple Magic Keyboard, G PRO Mouse
 
-ACPI Patching Guide:
-https://kextcache.com/advanced-hackintosh-acpi-a-deep-dive-into-ssdt-selection-and-configuration/
+<br>
 
-Bootable USB guide:
-Windows: https://kextcache.com/make-macos-bootable-usb-on-windows-a-step-by-step-guide/
-macOS: https://kextcache.com/guide-to-create-a-bootable-macos-usb-drive-using-gibmacos-tool/
+I've personally booted and run macOS Sequoia (Developer Beta 1) with this configuration.  However, your experience may vary depending on your unique hardware setup. 
 
-Troubleshooting Tips
+## Configuration Overview
 
-If you encounter any issues during installation or booting, refer to the troubleshooting section on my website: https://kextcache.com/common-problems-and-workarounds-in-hackintosh-2020/
+*   **OpenCore Version:** OpenCore 1.0.1
+*   **Kexts:**
+    *   Lilu
+    *   WhateverGreen
+    *   VirtualSMC
+    *   AppleALC
+    *   Realtek RTL8111
+    *   NVMeFix
+    *   RestrictEvents
+    *   VirtualSMC & Plugins
+    *   USB Tool Box
+    *   XHCI-Unsupported
+*   **ACPI:**
+    *   SSDT-AWAC-DISABLE.aml
+    *   SSDT-EC-USBX.aml
+    *   SSDT-PLUG.aml
+    *   SSDT-PMC.aml
+*   **SMBIOS:** iMac 19,1
 
-on Comment on Specific blog about your problem.
+<br>
+## Installation Guides 
 
+Need help with the installation process? Follow my detailed guides:
+
+*   **Complete Hackintosh Setup:**  [https://kextcache.com/guide-make-intel-700-hackintosh-build-using-opencore-bootloader/](https://kextcache.com/guide-make-intel-700-hackintosh-build-using-opencore-bootloader/)
+*   **USB Mapping:** [https://kextcache.com/guide-how-to-do-usb-mapping-for-hackintosh-in-windows/](https://kextcache.com/guide-how-to-do-usb-mapping-for-hackintosh-in-windows/)
+*   **ACPI Patching:**  [https://kextcache.com/advanced-hackintosh-acpi-a-deep-dive-into-ssdt-selection-and-configuration/](https://kextcache.com/advanced-hackintosh-acpi-a-deep-dive-into-ssdt-selection-and-configuration/)
+*   **Bootable USB Creation:**
+    *   **Windows:**  [https://kextcache.com/make-macos-bootable-usb-on-windows-a-step-by-step-guide/](https://kextcache.com/make-macos-bootable-usb-on-windows-a-step-by-step-guide/)
+    *   **macOS:** [https://kextcache.com/guide-to-create-a-bootable-macos-usb-drive-using-gibmacos-tool/](https://kextcache.com/guide-to-create-a-bootable-macos-usb-drive-using-gibmacos-tool/)
+
+<br>
+## Troubleshooting Tips
+
+If you encounter issues, head to my website for common Hackintosh problems and workarounds: [https://kextcache.com/common-problems-and-workarounds-in-hackintosh-2020/](https://kextcache.com/common-problems-and-workarounds-in-hackintosh-2020/)
+
+Don't hesitate to comment on the specific blog post for your problem – I'm here to help!
+
+<br>
+## Credits & Disclaimer
+
+Big thanks to the Hackintosh community and OpenCore developers!
+
+**Disclaimer:** Use this configuration at your own risk. I'm not responsible for any damage to your hardware or data. 
